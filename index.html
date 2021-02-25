@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Seiryvoth's Library</title>
+		<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+		<link rel="stylesheet" href="mylibrary.css"
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>Seiryvoth's Library</h1>
+				<nav>
+					<ul>
+						<li><a href="" class="current">ទំព័រដើម</a></li>
+						<li><a href="classes.html" >មេរៀនសង្ខេប</a></li>
+						<li><a href="exercisespart.html">លំហាត់</a></li>
+						<li><a href="">គន្លឹះដោះស្រាយលំហាត់</a></li>
+						<li><a href="tutorialvdo.html">រៀនតាមវីដេអូ</a></li>
+						<li><a href="">អំពីយើងខ្ញុំ</a></li>
+						
+					</ul>
+				</nav>
+			</header>
+			<section class="courses">
+				<article>
+					<hgroup>
+						<h2>Five week course in London</h2>
+					</hgroup>
+					<p>A five week introduction to  selection of rice and noodle dishes.</p>
+					<p>A five week introduction to  selection of rice and noodle dishes.</p>
+					<p>A five week introduction to  selection of rice and noodle dishes.</p>
+				</article>    
+				<article>
+					<hgroup>
+						<h2>One day workshop</h2>
+					</hgroup>
+					<p>An intensive one-day course looking at how of Japanese cookery.</p>
+					<p>A five week introduction to  selection of rice and noodle dishes.</p>
+					<p>A five week introduction to  selection of rice and noodle dishes.</p>
+                </article>      
+			</section>
+			<aside>
+				<section>
+					<h2><span>រូបមន្តសង្ខេប</span></h2>
+					<a href="">លីមីតនៃអនុគមន៍</a>
+					<a href="">ដេរីវេនៃអនុគមន៍</a>
+					<a href="">អនុគមន៍អិចស្ប៉ូណង់ស្យែល</a>
+					<a href="">អនុគមន៍លោការីត</a>
+				
+					<h2><span>រូបមន្តបន្ថែម</span></h2>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  \[\sin3\alpha=3\sin\alpha-4\sin^3\alpha\]
+</div>
+
+<div class="mySlides fade">
+  
+  \[\cos3\alpha=4\cos^3\alpha-3\cos\alpha\]
+</div>
+<div class="mySlides fade">
+	
+	\[\tan3\alpha=\frac{3\tan\alpha-\tan^3\alpha}{1-3\tan^2\alpha} \]
+  </div>
+  
+  <div class="mySlides fade">
+	
+	\[\cot3\alpha=\frac{\cot^3\alpha-3\cot\alpha}{3\cot^2\alpha-1}\]
+  </div>
+  <div class="mySlides fade">
+	
+	\[t=\tan\frac{\alpha}{2}\]
+	\[\sin\alpha=\frac{2t}{1+t^2}\]
+  </div>
+  
+  <div class="mySlides fade">
+	
+	\[t=\tan\frac{\alpha}{2}\]
+	\[\cos\alpha=\frac{1-t^2}{1+t^2} \]
+  </div>
+  <div class="mySlides fade">
+	
+	\[t=\tan\frac{\alpha}{2}\]
+	\[\tan\alpha=\frac{2t}{1-t^2} \]
+  </div>
+  
+  <div class="mySlides fade">
+	
+	\[t=\tan\frac{\alpha}{2}\]
+	\[\cot\alpha=\frac{1-t^2}{2t} \]
+  </div>
+  <div class="mySlides fade">
+	
+	\[\sin^2\alpha=\frac{1}{2}(1-\cos2\alpha)\]
+  </div>
+  
+  <div class="mySlides fade">
+	
+	\[\cos^2\alpha=\frac{1}{2}(1+\cos2\alpha)\]
+  </div>
+
+</div>
+<br>
+
+<script>
+	var slideIndex = 0;
+	showSlides();
+	
+	function showSlides() {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  //var dots = document.getElementsByClassName("dot");
+	  for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";  
+	  }
+	  slideIndex++;
+	  if (slideIndex > slides.length) {slideIndex = 1}    
+	  //for (i = 0; i < dots.length; i++) {
+		//dots[i].className = dots[i].className.replace(" active", "");
+	  //}
+	  slides[slideIndex-1].style.display = "block";  
+	  //dots[slideIndex-1].className += " active";
+	  setTimeout(showSlides, 2000); // Change image every 2 seconds
+	}
+	</script>
+				</section>
+			</aside>
+			<footer>
+				&copy; 2021 Seiryvoth's Library
+			</footer>
+		</div><!-- .wrapper -->
+	</body>
+</html>
