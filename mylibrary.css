@@ -28,8 +28,30 @@ header {
     position: fixed;
     z-index: 50;
     top: 0px;
-    
-    }
+    border-radius: 10px 10px 0px 0px;
+    height: 100px;
+    width: 940px;
+    background-image: url(image/Siteheader.jpg);}
+nav {
+    clear: both;
+    border: 1px dashed #0088dd;
+    border-radius: 0px 0px 10px 10px;
+    padding: 0px;	
+    background-color: rgb(38, 58, 77);
+    height: 30px;
+    margin-top: 100px;}
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;}
+nav li {
+    display: inline;
+    margin-right: 40px;}
+nav li a {
+    color: #e40b3e;
+    text-shadow: 2px 2px 3px #292323;}
+        
+nav li a:hover, nav li a.current {
+    color: #000000;}
 a {
     text-decoration: none;}
 h1, h2, h3 ,a{
@@ -58,18 +80,6 @@ h3 {
     color: #e40b3e;}
 h4 {
         color: #0088dd;}
-nav li a {
-    color: #e40b3e;
-    text-shadow: 2px 2px 3px #292323;}
-nav {
-    clear: both;
-    border: 1px dashed #0088dd;
-    border-radius: 10px 10px 0px 0px;
-    padding: 0px;
-    width: 940px;
-    height: 100px;	
-    background-color: #ffffff;
-    background-image: url(image/Siteheader.jpg);}
 footer {
     clear: both;
     color: #ffffff;
@@ -80,20 +90,7 @@ footer {
     padding: 7px 0px 0px 20px;
     border: 1px dashed #0088dd;
     border-radius: 10px 10px 10px 10px;}
-nav ul {
-    width: auto;
-    height: 20px;
-    margin-top: 100px;
-    background-color: rgb(38, 58, 77);
-    border: 1px dashed #0088dd;
-    border-radius: 0px 0px 10px 10px;
-    padding: 5px 0px 5px 30px;}
-nav li {
-    display: inline;
-    margin-right: 40px;}
 
-nav li a:hover, nav li a.current {
-    color: #000000;}
 section.courses {
     float: left;
     width: 570px;
