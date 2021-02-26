@@ -5,15 +5,12 @@ body {
     background: #413f3b url("images/bg.jpg");
     background-position: center;
     font-family: battambang, Georgia, Times, serif;
+    font-size: 11pt;
     line-height: 1.4em;
     margin: 0px;}
 @font-face{
     font-family: battambang;
     src: url(khmerfont/Kh-Battambang.ttf);
-}
-@font-face{
-    font-family: kh-moul;
-    src: url(khmerfont/Kh-Freehand.ttf);
 }
 
 .wrapper {
