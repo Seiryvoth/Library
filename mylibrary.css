@@ -116,6 +116,10 @@ hgroup {
 hgroup h2 p {
     color: #000;
 }
+li span{
+    color: #0088dd;
+    font-weight: bold;
+}
 figure {
     float: left;
     width: 460px;
