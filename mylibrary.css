@@ -7,7 +7,7 @@ body {
     font-family: battambang, Georgia, Times, serif;
     font-size: 11pt;
     line-height: 1.4em;
-    }
+    margin: 0px;}
 @font-face{
     font-family: battambang;
     src: url(khmerfont/Kh-Battambang.ttf);
