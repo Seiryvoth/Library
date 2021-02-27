@@ -36,45 +36,93 @@
 	<hr>
 					<h3>ដេរីវេនៃអនុគមន៍ត្រង់ \(x_0 \)</h3>
 
-
-	ដេរីវេត្រង់\( x_0 \) នៃអនុគមន៍ \(y=f(x)\)  ជាលីមីត(បើមាន)នៃផលធៀបកំណើន\(\dfrac{\Delta y}{\Delta x}\) កាលណា \(\Delta x \) ខិតជិត \(0\) ។ 
-	គេសរសេរ\[ {y'}_0=f'(x_0) =\lim\limits_{\Delta x\to 0}\dfrac{\Delta y}{\Delta x}=\lim\limits_{x\to x_0}\dfrac{f(x)-f(x_0)}{x-x_0}\]
+				<div class="text-box">
+	ដេរីវេត្រង់\( x_0 \) នៃអនុគមន៍ \(y=f(x)\)  ជាលីមីត(បើមាន)នៃផលធៀបកំណើន\(\dfrac{\Delta y}{\Delta x}\) កាលណា \(\Delta x \) ខិតជិត \(0\) ។ <br>
+	គេសរសេរ៖\[ {y'}_0=f'(x_0) =\lim\limits_{\Delta x\to 0}\dfrac{\Delta y}{\Delta x}=\lim\limits_{x\to x_0}\dfrac{f(x)-f(x_0)}{x-x_0}\]
 	ឬ​\[{y'}_0=f'(x_0)=\lim\limits_{h\to 0}\dfrac{f(x_0+h)-f(x_0)}{h}\]
+				</div>
 	<hr>
 
 					<h3>ដេរីវេនៃអនុគមន៍បណ្ដាក់</h3>
-
+				<div class="text-box">
 	បើ\( y=f(u) \)និង​ \(u=g(x) \) នោះ \(\dfrac{dy}{dx}=\dfrac{dy}{du}\times \dfrac{du}{dx} \)ឬ \(\dfrac{d}{dx}f[u(x)]=f'(u)\times u'(x) \)។<br>
 	បើ\( y=u^n \) ដែល\( u \) ជាអនុគមន៍នៃ\( x \)នោះ\(\dfrac{dy}{dx}=nu^{n-1}\times \dfrac{du}{dx}=nu^{n-1}\times u' \)។
+				</div>
 	<hr>
 
 					<h3>រូបមន្តដេរីវេនៃអនុគមន៍</h3>
-
-	បើ​\( u,v \)ជាអនុគមន៍នៃ\(x \)
-
+					
+		<table>
+		<tr>
+			<th>អនុគមន៍(បើ​\( u,v \)ជាអនុគមន៍នៃ\(x \))</th>
+			<th>ដេរីវេនៃអនុគមន៍</th>
+		</tr>
+		<tr>
+			<td>\[ y=x\]</td>
+			<td>\[ y'=1 \]</td>
+		</tr>
+		<tr>
+			<td>\[ y=x^n\]</td>
+			<td>\[ y'=nx^{n-1} \]</td>
+		</tr>
+		<tr>
+			<td>\[ y=u\pm v\]</td>
+			<td>\[ y'=u'\pm v' \]</td>
+		</tr>
+		<tr>
+			<td>\[ y=u^n\]</td>
+			<td>\[ y'=nu'u^{n-1} \]</td>
+		</tr>
+		<tr>
+			<td>\[ y=u v\]</td>
+			<td>\[ y'=u'v+uv'\]</td>
+		</tr>
+		<tr>
+			<td>\[ y=\dfrac{u}{v}\]</td>
+			<td>\[ y'=\dfrac{u'v-uv'}{v^2} \]</td>
+		</tr>
+		<tr>
+			<td>\[ y=\sin u\]</td>
+			<td>\[ y'=u'\cos u \]</td>
+		</tr>
+		<tr>
+			<td>\[ y=\cos u\]</td>
+			<td>\[ y'=-u'\sin u \]</td>
+		</tr>
+		<tr>
+			<td>\[ y=\tan u\]</td>
+			<td>\[ y'=\dfrac{u'}{\cos^2u} \]</td>
+		</tr>
+		<tr>
+			<td>\[ y=\cot u\]</td>
+			<td>\[ y'=-\dfrac{u'}{\sin^2u} \]</td>
+		</tr>
+		<tr>
+			<td>\[ y=\ln u\]</td>
+			<td>\[ y'=\dfrac{u'}{u} \]</td>
+		</tr>
+		<tr>
+			<td>\[ y=\log_au\]</td>
+			<td>\[ y'=\dfrac{u'}{u}\log_ae \]</td>
+		</tr>
+		<tr>
+			<td>\[ y=e^u\]</td>
+			<td>\[ y'=u'e^u \]</td>
+		</tr>
+		<tr>
+			<td>\[ y=a^u\]</td>
+			<td>\[ y'=u'a^u\ln a \]</td>
+		</tr>
+		</table>
 	
-		\[ y=x\qquad\rightarrow\qquad y'=1 \]
-		\[ y=x^n\qquad\rightarrow\qquad y'=nx^{n-1} \]
-		\[ y=u\pm v\qquad\rightarrow\qquad y'=u'\pm v' \]
-		\[ y=u^n\qquad\rightarrow\qquad y'=nu'u^{n-1} \]
-		\[ y=u v\qquad\rightarrow\qquad y=u'v+uv'\]
-		\[ y=\dfrac{u}{v}\qquad\rightarrow\qquad y'=\dfrac{u'v-uv'}{v^2} \]
-		\[ y=\sin u\quad\rightarrow\quad y'=u'\cos u \]
-		\[ y=\cos u\quad\rightarrow\quad y'=-u'\sin u \]
-		\[ y=\tan u\qquad\rightarrow\qquad y'=\dfrac{u'}{\cos^2u} \]
-		\[ y=\cot u\quad\rightarrow\quad y'=-\dfrac{u'}{\sin^2u} \]
-		\[ y=\ln u\qquad\rightarrow\qquad y'=\dfrac{u'}{u} \]
-		\[ y=\log_au\quad\rightarrow\quad y'=\dfrac{u'}{u}\log_ae \]
-		\[ y=e^u\qquad\rightarrow\qquad y'=u'e^u \]
-		\[ y=a^u\qquad\rightarrow\qquad y'=u'a^u\ln a \]
-
-		<hr>
+	<hr>
 
 						<h3>វិសមភាពកំណើនមានកំណត់</h3>
-
+					<div class="text-box">
 	គេឱ្យ \( f \) ជាអនុគមន៍កំណត់និងជាប់ហើយមានដេរីវេលើចន្លោះ \( I \) ។<br>
 	បើមានចំនួនពិត  \(m\)  និង \(M \) ចំពោះ \( \forall x\in I, m\leq f'(x)\leq  M \)នោះ \( \forall a,b \in I ,a< b\) គេបាន \(  m(b-a)\leq f(b)-f(a)\leq M(b-a) \) ។
-	<hr>
+					</div>
+	
 	ប្រតិបត្តិ<br>
 	គេឱ្យអនុគមន៍ \(f(x)=\sqrt{1+x} \) កំណត់\( \forall x\in (-1,+\infty) \) ។<br>
 	
@@ -83,23 +131,24 @@
 	<hr>
 	
 						<h3>ទ្រឹស្ដីបទរ៉ូល</h3>
-
-	បើ \( f \)ជាអនុគមន៍ជាប់លើចន្លោះ\( [a,b] \) មានដេរីវេលើចន្លោះ \( (a,b) \) និង \( f(a)=f(b) \)  នោះមានចំនួន \(c\in (a,b) \) យ៉ាងតិចមួយដែល​ \( f'(c)=0 \) ។
-	<hr>
+					<div class="text-box">
+	បើ \( f \)ជាអនុគមន៍ជាប់លើចន្លោះ\( [a,b] \) មានដេរីវេលើចន្លោះ \( (a,b) \) និង \( f(a)=f(b) \)  នោះមានចំនួន \(c\in (a,b) \) យ៉ាងតិចមួយដែល​ \( f'(c)=k \) ។
+					</div>
 		ប្រតិបត្តិ<br>
 		ក. គេឱ្យ \( f(x)=x^2-2x \) ។រក\( \forall c\in [0,2] \) ដែល​ \( f'(c)=0 \) ។<br>
 		ខ. គេឱ្យ \( f(x)=(x-3)(x+1)^2 \) ។រក\( \forall c\in [-1,3] \) ដែល​ \( f'(c)=0 \) ។<br>
 		គ.​​ គេឱ្យ​ \( f(x)=x^3+2x+1 \) កំណត់លើចន្លោះ \( [1,2] \) ។ដោយអនុវត្តវិសមភាពកំណើនមានកំណត់រកតម្លៃប្រហែលនៃ \( f(1.01) \) ។
 	<hr>
 						<h3>ទ្រឹស្តីបទតម្លៃមធ្យម</h3>
-
+					<div class="text-box">
 	បើ  \(f\)  ជាអនុគមន៍ជាប់លើចន្លោះ\( [a,b] \) មានដេរីវេលើ\( (a,b) \) នោះមាន \( c\in (a,b) \) មួយយ៉ាងតិចដែល\( f'(c)=\dfrac{f(b)-f(a)}{b-a} \) ។
-	<hr>
+					</div>
 		ប្រតិបត្តិ<br>
 		ក. គេឱ្យ \( f(x)=x^2 \) ។រក\( \forall c\in (-2,1) \) ដែល​ \( f'(c)=\dfrac{f(1)-f(-2)}{1+2} \) ។<br>
 		ខ. គេឱ្យ \( f(x)=\dfrac{x+1}{x}\) ។រក\( \forall c\in (\dfrac{1}{2},2) \) ដែល​ \( f'(c)=\dfrac{f(2)-f(\dfrac{1}{2})}{2-\dfrac{1}{2}} \) ។
 	<hr>
 						<h3>ចំណោទបរមា</h3>
+					<div class="text-box">
 		១. អនុគមន៍\( f(x) \) មានអប្បបរមាធៀបត្រង់\( x_0 \) លុះត្រាតែ
 		\[\left\{\begin{array}{ll}
 		f'(x_0)=0\\
@@ -114,8 +163,7 @@
 		f'(x)< 0&,x< x_0
 		\end{array}\right.\]
 		មានន័យថាអនុគមន៍\( f(x) \) មានអតិបរមាធៀបត្រង់\( x_0 \) កាលណា\( f'(x) \) ប្តូរសញ្ញាពី \( (+) \) ទៅ \( (-) \) ត្រង់ \( x_0 \) ។
-	<hr>
-	<hr>
+					</div>
 	ចំណាំ<br>
 		ក. អនុគមន៍\( f(x) \) មានអតិបរមាធៀបត្រង់\( x_0 \) លុះត្រាតែ
 		\[\left\{\begin{array}{ll}
@@ -127,8 +175,8 @@
 		f'(x_0)=0\\
 		f"(x_0)>0
 		\end{array}\right.\] 
-	<hr>
-	<hr>
+	
+		<div class="text-box">
 	ប្រតិបត្តិ<br>
 	
 		 ចតុកោណកែងមួយមានបរិមាត្រ\( 40cm \) ។រកវិមាត្រនៃចតុកោណកែងនោះដើម្បីឱ្យវាមានផ្ទៃក្រឡាអតិបរមា។
@@ -146,7 +194,7 @@
 		ដោយ \( S"(10)=-2\leq 0 \)<br>
 		នោះ ផ្ទៃក្រឡាចតុកោណមានតម្លៃអតិបរមាត្រង់\( x=10 \) និង \( y=20-10=10 \)<br>
 		ដូចនេះ ផ្ទៃក្រឡាចតុកោណមានតម្លៃអតិបរមាកាលណាទទឹងមានប្រវែង\(10cm\) និង មានបណ្ដោយ\(10cm\)។
-		
+		</div>
 			</article>
 			</section>
 			<aside>
