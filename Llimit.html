@@ -33,8 +33,49 @@
 				<article>
 					<h2>លីមីតនៃអនុគមន៍</h2>
 						<hr>
-					<h3>លីមីតនៃប្រភាគសនិទាន \(r(x)=\dfrac{p(x)}{q(x)}\) មានរាងមិនកំណត់ \(\frac{0}{0}\)</h3>
-					
+					<h3>លីមីតនៃអនុគមន៍សនិទាន</h3>
+					<div class="text-box">
+						<h4>រាងមិនកំណត់ \(\dfrac{0}{0}\)</h4>
+							ដើម្បីគណនាលីមីតនៃអនុគមន៍សនិទានដែលមានរាងមិនកំណត់ \(\dfrac{0}{0}\)
+							គេត្រូវសរសេរភាគយកនិងភាគបែងជាផលគុណកត្តារួចសម្រួលកត្តារួមដែលធ្វើអោយលីមីតមានរាងមិនកំណត់ចោល រួចគណនាលីមីតនៃកន្សោមថ្មី។
+							\[\lim\limits_{x\to x_0}\dfrac{p(x)}{q(x)}=\lim\limits_{x\to x_0}\dfrac{(x-x_0)\times A(x)}{(x-x_0)\times B(x)}=\lim\limits_{x\to x_0}\dfrac{A(x)}{B(x)}\]
+						<h4>រាងមិនកំណត់​ \(\dfrac{\infty}{\infty}\)</h4>
+							ដើម្បីគណនាលីមីតនៃអនុគមន៍សនិទានដែលមានរាងមិនកំណត់ \(\dfrac{\infty}{\infty}\)
+							គេត្រូវចាប់តួណាមួយដែលមានដឺក្រេធំជាងគេនៅភាគយកជាផលគុណកត្តានិងចាប់តួណាមួយដែលមានដឺក្រេធំជាងគេនៅភាគបែងជាផលគុណកត្តា រួចសម្រួលកត្តារួមចោល(បើមាន) រួចគណនាលីមីតនៃកន្សោមថ្មី។
+					</div>
+					ឧទាហរណ៍៖ គណនាលីមីត
+					<ol>
+						<li>\(\lim\limits_{x\to 1}\dfrac{2x^2+3x-5}{(x-1)(x+2)}\)<br>
+							\(=\lim\limits_{x\to 1}\dfrac{(x-1)(2x+5)}{(x-1)(x+2)}\lim\limits_{x\to 1}\dfrac{2x+5}{x+2}\)<br>
+							\(=\dfrac{7}{3}\)</li>
+						<li>\(\lim\limits_{x\to\infty}\dfrac{x^3-8x^2}{x^2-x+1}\)<br>
+							\(=\lim\limits_{x\to\infty}\dfrac{x^3(1-\dfrac{8}{x})}{x^2(1-\dfrac{1}{x}+\dfrac{1}{x^2})}\)<br>
+							\(=\lim\limits_{x\to\infty}x=\infty\)</li>
+					</ol>
+					<hr>
+					<h3>លីមីតនៃអនុគមន៍អសនិទាន ឬ ប្រភាគអសនិទាន</h3>
+					<div class="text-box">
+						<h4>រាងមិនកំណត់\(\infty-\infty\) ឬ​ \(\dfrac{\infty}{\infty}\)</h4>
+						ដើម្បីគណនាលីមីតនៃអនុគមន៍អសនិទាន ឬ ប្រភាគអសនិទានដែលមានរាងមិនកំណត់\(\infty-\infty\)ឬ​ \(\dfrac{\infty}{\infty}\)​កាលណា\(x\to\pm\infty\) គេត្រូវគុណនឹងកន្សោមឆ្លាស់ឬកន្សោមបំពេញ។​
+					</div>
+					ឧទាហរណ៍៖ គណនាលីមីត
+					<ol>
+						<li>\(\lim\limits_{x\to+\infty}\left(\sqrt{x^2+1}-x\right)\)<br>
+							\(=\lim\limits_{x\to+\infty}\dfrac{\left(\sqrt{x^2+1}-x\right)\left(\sqrt{x^2+1}+x\right)}{\sqrt{x^2+1}+x}\)<br>
+							\(=\lim\limits_{x\to+\infty}\dfrac{\left(\sqrt{x^2+1}\right)^2-x^2}{\sqrt{x^2+1}+x}\)<br>
+							\(=\lim\limits_{x\to+\infty}\dfrac{x^2+1-x^2}{\sqrt{x^2+1}+x}\)<br>
+							\(=\lim\limits_{x\to+\infty}\dfrac{1}{\sqrt{x^2+1}+x}\)<br>
+							\(=\lim\limits_{x\to+\infty}\dfrac{1}{x\left(\sqrt{1+\frac{1}{x^2}}+1\right)}\)<br>
+							\(=0\)
+						</li>
+						<li>
+							\(=\lim\limits_{x\to+\infty}\dfrac{\sqrt{x}-\sqrt{x+1}}{x+1}\)<br>
+							\(=\lim\limits_{x\to+\infty}\dfrac{\left(\sqrt{x}-\sqrt{x+1}\right)\left(\sqrt{x}+\sqrt{x+1}\right)}{\left(x+1\right)\left(\sqrt{x}+\sqrt{x+1}\right)}\)<br>
+							\(=\lim\limits_{x\to+\infty}\dfrac{x-(x+1)}{\left(x+1\right)\left(\sqrt{x}+\sqrt{x+1}\right)}\)<br>
+							\(=\lim\limits_{x\to+\infty}\dfrac{-1}{\left(x+1\right)\left(\sqrt{x}+\sqrt{x+1}\right)}\)<br>
+							\(=0\)
+						</li>
+					</ol>
 				</article>
 			</section>
 			<aside>
