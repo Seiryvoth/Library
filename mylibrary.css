@@ -47,8 +47,9 @@ nav li a {
     color: #e40b3e;
     text-shadow: 2px 2px 3px #292323;}
         
-nav li a:hover, nav li a.current {
+ a:hover, a.current {
     color: #000000;}
+
 a {
     text-decoration: none;}
 h1, h2, h3 ,a{
