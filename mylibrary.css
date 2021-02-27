@@ -7,7 +7,7 @@ body {
     font-family: battambang, Georgia, Times, serif;
     font-size: 11pt;
     line-height: 1.4em;
-    margin: 0px;}
+    }
 @font-face{
     font-family: battambang;
     src: url(khmerfont/Kh-Battambang.ttf);
@@ -29,6 +29,11 @@ header {
     height: 100px;
     width: 940px;
     background-image: url(image/Siteheader.jpg);}
+aside section{
+    position: fixed;
+    z-index: 50;
+}
+
 nav {
     clear: both;
     border: 1px dashed #0088dd;
@@ -141,10 +146,7 @@ aside {
     float: left;
     padding: 0px 0px 0px 20px;
     }
-aside section{
-    position: fixed;
-	z-index: 50;
-}
+
 
 aside section a {
     display: block;
