@@ -90,7 +90,7 @@ footer {
 .text-box{
     width: auto;
     height: fit-content;
-    border: 3px solid red;
+    border: 1px solid red;
     border-radius: 10px 10px 10px 10px;
     padding: 30px;
     margin: 20px;
@@ -163,9 +163,9 @@ table{
 td,th{
     border: 1px solid red;
     text-align: center;
-    padding: 8px;
+    padding: 5px;
 }
-tr:nth-child(even){
+tr:nth-child(odd){
     background-color: rosybrown;
 }
 /*drop down*/
