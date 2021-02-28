@@ -29,10 +29,6 @@ header {
     height: 100px;
     width: 940px;
     background-image: url(image/Siteheader.jpg);}
-aside section{
-    position: fixed;
-    z-index: 50;
-}
 
 nav {
     clear: both;
@@ -145,9 +141,13 @@ aside {
     width: 230px;
     float: left;
     padding: 0px 0px 0px 20px;
+    
     }
 
-
+aside section{
+        position: fixed;
+        z-index: 50;
+    }
 aside section a {
     display: block;
     padding: 10px;
@@ -202,7 +202,7 @@ tr:nth-child(odd){
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
-    position: relative;
+    position: fixed;
     margin: auto;
 }
 .mySlides{

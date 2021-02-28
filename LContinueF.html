@@ -84,66 +84,55 @@
 					<a href="LimitFormula.html">លីមីតនៃអនុគមន៍</a>
 					<a href="DerivativeFormula.html">ដេរីវេនៃអនុគមន៍</a>
 					<a href="ex-log-Formula.html">អិចស្ប៉ូណង់ស្យែល និង​ លោការីត</a>
-					
-				
+
 					<h2><span>រូបមន្តបន្ថែម</span></h2>
 
-<div class="slideshow-container">
-
+				<div class="slideshow-container">
+					
 	
-	<div class="mySlides fade">
-		C
-	  </div>
+				<div class="mySlides fade">
+					<h4>សមីការដឺក្រេទី២</h4>
+					\[ax^2+bx+c=0,a\neq 0\]
+					\[\Delta =b^2-4ac\]
+					<ul>
+						<li>\(\Delta >0\) នោះសមីការមានឬសពីរផ្សេងគ្នាគឺ\(x_{1,2}=\dfrac{-b\pm \sqrt{\Delta}}{2a}\)</li>
+						<li>\(\Delta =0\) នោះសមីការមានឬសឌុបគឺ​ \(x=\dfrac{-b}{2a}\)</li>
+						<li>\(\Delta <0\) នោះសមីការមានឬសពីរជាចំនួនកុំផ្លិចផ្សេងគ្នាគឺ\(x_{1,2}=\dfrac{-b\pm i\sqrt{|\Delta |}}{2a}\)</li>
+					</ul>
+	  			</div>
 	  
-	  <div class="mySlides fade">
-		D
-	  </div>
-	  <div class="mySlides fade">
-		E
-	  </div>
-	  
-	  <div class="mySlides fade">
-		F
-	  </div>
-	  <div class="mySlides fade">
-	G	
-	  </div>
-	  
-	  <div class="mySlides fade">
-		H
-	  </div>
-	  <div class="mySlides fade">
-		I
-	  </div>
-	  
-	  <div class="mySlides fade">
-		J
-	  </div>
+	  			<div class="mySlides fade">
+					<h4>សមីការដឺក្រេទី២</h4>
+					\[ ax^2+bx+c=0,a\neq 0\]
+					<ul>
+						<li>បើ​ \(a+b+c=0\) នោះសមីការមានឬសពីរផ្សេងគ្នាគឺ \(x_1=1 , x_2=\dfrac{c}{a}\)</li>
+						<li>បើ \(a-b+c=0\) នោះសមីការមានឬសពីរផ្សេងគ្នាគឺ \(x_1=-1 , x_2=-\dfrac{c}{a}\)</li>
+					</ul>
+	  			</div>
+				</div>
+				<br>
 	
-	</div>
-	<br>
-	
-	<script>
-		var slideIndex = 0;
-		showSlides();
+				<script>
+					var slideIndex = 0;
+					showSlides();
 		
-		function showSlides() {
-		  var i;
-		  var slides = document.getElementsByClassName("mySlides");
-		  //var dots = document.getElementsByClassName("dot");
-		  for (i = 0; i < slides.length; i++) {
-			slides[i].style.display = "none";  
-		  }
-		  slideIndex++;
-		  if (slideIndex > slides.length) {slideIndex = 1}    
-		  //for (i = 0; i < dots.length; i++) {
-			//dots[i].className = dots[i].className.replace(" active", "");
-		  //}
-		  slides[slideIndex-1].style.display = "block";  
-		  //dots[slideIndex-1].className += " active";
-		  setTimeout(showSlides, 2000); // Change image every 2 seconds
-		}
-		</script>
+					function showSlides() {
+		  			var i;
+		  			var slides = document.getElementsByClassName("mySlides");
+		  			//var dots = document.getElementsByClassName("dot");
+		  			for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";  
+		  			}
+		  			slideIndex++;
+		  			if (slideIndex > slides.length) {slideIndex = 1}    
+		  			//for (i = 0; i < dots.length; i++) {
+					//dots[i].className = dots[i].className.replace(" active", "");
+		  			//}
+		  			slides[slideIndex-1].style.display = "block";  
+		  			//dots[slideIndex-1].className += " active";
+		  			setTimeout(showSlides, 10000); // Change image every 2 seconds
+					}
+				</script>
 				</section>
 			</aside>
 			<footer>
