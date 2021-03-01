@@ -132,8 +132,8 @@ section.courses {
 article {
     clear: both;
     overflow: auto;
-    width: 500px;
-    padding: 50px;}
+    width: 565px;
+    padding: 0px;}
 article a {
     display: block;
     padding: 10px;
@@ -159,6 +159,7 @@ figure {
     height: 315px;
     padding: 1px;
     margin: 5px;
+    margin-left: 0px;
     border: 1px solid #eeeeee;}
 figcaption {
     font-size: 90%;
