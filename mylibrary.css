@@ -48,6 +48,7 @@ nav li a {
     color: #e40b3e;
     text-shadow: 2px 2px 3px #292323;}
 .copy-right{
+    clear: both;
     font-family: Arial, sans-serif;
     font-size: 10pt;
     margin-left: 410px;
