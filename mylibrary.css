@@ -2,7 +2,7 @@ header, section, footer, aside, nav, article,button figure, figcaption {
     display: block;}
 body {
     color: #000000;
-    background: #413f3b url("images/bg.jpg");
+    background-color: #ffffff;
     background-position: center;
     font-family: battambang, Georgia, Times, serif;
     font-size: 11pt;
@@ -16,8 +16,7 @@ body {
 .wrapper {
     width: 940px;
     margin: 140px auto ;
-    border: 1px dashed #0088dd;
-    border-radius: 10px 10px 10px 10px;
+    
     background-color: #ffffff;
     background-repeat: no-repeat;
     }
