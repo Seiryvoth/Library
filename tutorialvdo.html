@@ -17,6 +17,7 @@
 	</head>
 	<body>
 		<div class="wrapper">
+		
 			<header>
 				<nav>
 					<ul>
@@ -28,6 +29,7 @@
 						
 					</ul>
 				</nav>
+			
 			</header>
 			<section class="courses"> 
 				<article>
@@ -72,6 +74,8 @@
 						<h3>blackpenredpen</h3>
 						<p>100 Equations (EXTREME patience)</p>
 					</hgroup>
+					<hr>
+					<button onclick="topFunction()" class="myBtn" title="Go to top">Top</button>
 				</article>
 			</section>
 			<aside>
@@ -106,28 +110,6 @@
 	</div>
 	</div>
 	<br>
-
-	<script>
-		var slideIndex = 0;
-		showSlides();
-		
-		function showSlides() {
-		  var i;
-		  var slides = document.getElementsByClassName("mySlides");
-		  //var dots = document.getElementsByClassName("dot");
-		  for (i = 0; i < slides.length; i++) {
-			slides[i].style.display = "none";  
-		  }
-		  slideIndex++;
-		  if (slideIndex > slides.length) {slideIndex = 1}    
-		  //for (i = 0; i < dots.length; i++) {
-			//dots[i].className = dots[i].className.replace(" active", "");
-		  //}
-		  slides[slideIndex-1].style.display = "block";  
-		  //dots[slideIndex-1].className += " active";
-		  setTimeout(showSlides, 10000); // Change image every 10 seconds
-		}
-		</script>
 					</section>
 				</aside>
 				<footer>
@@ -135,7 +117,50 @@
 						2020 is year bewildered each and every individual of the world due to pandemic COVID-19. This disease is caused by CARONA virus. Till date there is no medicine or vaccine for this disease. So the only option in our hands is to follow instructions strictly announced by World Health Organization. Italy is affected with this virus more worsen because of there is no initial preventive measures in the country. Fight back against the virus every individual should home quarantine. Clean the hands every time if are out from the same place. Strictly say no to hand shake instead respect them back with namaskar. Do not contact any person until state and center curfew is over. Now India also greatly affected by this COVID-19 virus because of foreigners. Who ever come to India from other country they must undergone to quarantine at least 14 days. After finishing quarantine they must go for CARONA test.
 					</marquee>
 				</footer>
+					
 			</div><!-- .wrapper -->
+			<script>
+				var slideIndex = 0;
+				showSlides();
+				
+				function showSlides() {
+				  var i;
+				  var slides = document.getElementsByClassName("mySlides");
+				  //var dots = document.getElementsByClassName("dot");
+				  for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";  
+				  }
+				  slideIndex++;
+				  if (slideIndex > slides.length) {slideIndex = 1}    
+				  //for (i = 0; i < dots.length; i++) {
+					//dots[i].className = dots[i].className.replace(" active", "");
+				  //}
+				  slides[slideIndex-1].style.display = "block";  
+				  //dots[slideIndex-1].className += " active";
+				  setTimeout(showSlides, 10000); // Change image every 10 seconds
+				}
+				</script>
+			<script>
+				//Get the button
+				var mybutton = document.getElementsByClassName("myBtn");
+				
+				// When the user scrolls down 20px from the top of the document, show the button
+				//window.onscroll = function() {scrollFunction()};
+				
+				//function scrollFunction() {
+				  //if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+					//mybutton.style.display = "block";
+				  //} else {
+					//mybutton.style.display = "none";
+				  //}
+				//}
+				
+				// When the user clicks on the button, scroll to the top of the document
+				function topFunction() {
+				  document.body.scrollTop = 0;
+				  document.documentElement.scrollTop = 0;
+				}
+				</script>
 		</body>
 	</html>
 	

@@ -15,16 +15,16 @@ body {
 
 .wrapper {
     width: 940px;
-    margin: 140px auto ;
-    
+    margin: 150px auto ;
     background-color: #ffffff;
     background-repeat: no-repeat;
+    
     }
 header {
     position: fixed;
     z-index: 1;
     top: 0px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
     height: 100px;
     width: 940px;
     background-image: url(image/Siteheader.jpg);}
@@ -32,7 +32,7 @@ header {
 nav {
     clear: both;
     border: 1px dashed #ffffff;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 0px 0px;
     padding: 0px;	
     background-color: #ffffff;
     height: 30px;
@@ -107,13 +107,15 @@ h4 {
 footer {
     clear: both;
     color: #ffffff;
+    bottom: 0px;
+    position: fixed;
     height: 30px;
+    width: 940px;
     font-size: 80%;
-    color: #ffffff;
     background-color: rgb(38, 58, 77);
     padding: 7px 0px 0px 20px;
-    border: 1px dashed #0088dd;
-    border-radius: 10px 10px 10px 10px;}
+    
+    border-radius: 0px 0px 0px 0px;}
 .text-box{
     width: auto;
     height: fit-content;
@@ -132,7 +134,8 @@ article {
     clear: both;
     overflow: auto;
     width: 565px;
-    padding: 0px;}
+    padding: 5px;
+}
 article a {
     display: block;
     padding: 10px;
@@ -224,7 +227,22 @@ tr:nth-child(odd){
   .dropdown a:hover {background-color: #ddd;}
   
   .show {display: block;}
-
+/*button*/
+.myBtn {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+  }
+  
+  .myBtn:hover {
+    background-color: #555;
+  }
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
