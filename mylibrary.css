@@ -50,9 +50,15 @@ nav li a {
     clear: both;
     font-family: Arial, sans-serif;
     font-size: 7pt;
-    margin-left: 320px;
+    margin-left: 250px;
     font-weight: normal;
     color: #000000;
+    position: fixed;
+}
+.pdf{
+    width: 940px;
+    height: 1000px;
+    position: fixed;
 }
         
  a:hover, a.current {
@@ -109,13 +115,14 @@ footer {
     color: #ffffff;
     bottom: 0px;
     position: fixed;
-    height: 30px;
+    height: 50px;
     width: 940px;
-    font-size: 80%;
+    font-size: 12pt;
     background-color: rgb(38, 58, 77);
-    padding: 7px 0px 0px 20px;
-    
     border-radius: 0px 0px 0px 0px;}
+marquee{
+    padding-top: 15px;
+}
 .text-box{
     width: auto;
     height: fit-content;
@@ -237,7 +244,7 @@ tr:nth-child(odd){
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
   
   .myBtn:hover {
