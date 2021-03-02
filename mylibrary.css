@@ -50,10 +50,10 @@ nav li a {
     clear: both;
     font-family: Arial, sans-serif;
     font-size: 7pt;
-    margin-left: 250px;
+    margin-left: 200px;
     font-weight: normal;
     color: #000000;
-    position: fixed;
+
 }
 .pdf{
     width: 940px;
