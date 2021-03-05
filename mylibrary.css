@@ -3,7 +3,6 @@ header, section, footer, aside, nav, article,button figure, figcaption {
 body {
     color: #000000;
     background-color: #ffffff;
-    
     background-position: center;
     font-family: battambang, Georgia, Times, serif;
     font-size: 11pt;
@@ -16,9 +15,8 @@ body {
 
 .wrapper {
     width: 940px;
-    
     margin: 150px auto ;
-    background-color: #744c4c;
+    background-color: #ffffff;
     background-repeat: no-repeat;
     
     }
@@ -30,7 +28,6 @@ header {
     height: 100px;
     width: 940px;
     background-image: url(image/Siteheader.jpg);}
-
 
 nav {
     clear: both;
