@@ -68,6 +68,9 @@ nav li a {
 ol{
     list-style-type: upper-roman;
 }
+ol .lower-alpha{
+    list-style-type: lower-alpha;
+}
 .copy-right{
     clear: both;
     font-family: Arial, serif;
